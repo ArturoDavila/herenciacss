@@ -4,6 +4,10 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+header {
+  position: fixed;
+}
+
 #starbucksIcon {
   display: inline-block;
   background-image: url("https://www.starbucks.com.mx/static/images/logo.svg");
@@ -17,7 +21,6 @@ nav {
   height: 100%;
   padding: 20px 160px;
   background-color: white;
-  position: sticky;
 }
 
 #localizar {
@@ -67,6 +70,17 @@ a {
 
 section img {
   width: 50%;
+}
+
+#waIcon {
+  display: flex;
+  background-image: url(./assets/wagif.gif);
+  width: 3rem;
+  height: 3rem;
+  border-radius: 1rem;
+  position: fixed;
+  bottom: 2rem;
+  left: 2rem;
 }
 
 section {
