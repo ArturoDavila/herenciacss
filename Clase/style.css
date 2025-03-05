@@ -1,0 +1,493 @@
+* {
+  box-sizing: border;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#starbucksIcon {
+  display: inline-block;
+  background-image: url("https://www.starbucks.com.mx/static/images/logo.svg");
+  margin: 0 25px 0 25;
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+}
+
+nav {
+  height: 100%;
+  padding: 20px 160px;
+  background-color: white;
+  position: sticky;
+}
+
+#localizar {
+  display: inline-block;
+  padding-left: 550px;
+  font-weight: bold;
+}
+
+#localizar:hover {
+  color: gray;
+}
+
+#ingresar,
+#unete {
+  border: 2px solid;
+  border-radius: 20px;
+  width: 100px;
+  height: 30px;
+  font-weight: 600;
+  font-size: medium;
+}
+
+#ingresar {
+  background-color: white;
+  margin-left: 15px;
+}
+
+#ingresar:hover {
+  border-color: gray;
+  color: gray;
+}
+
+#unete {
+  background-color: black;
+  color: white;
+  margin-left: 10px;
+}
+
+#unete:hover {
+  background-color: gray;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+section img {
+  width: 50%;
+}
+
+section {
+  margin: 0 60px;
+}
+
+.navBarButton,
+#starbucksIcon {
+  vertical-align: middle;
+}
+
+.navBarButton {
+  display: inline-block;
+  font-weight: bold;
+  margin: 0 30px;
+}
+
+.navBarButton a {
+  color: black;
+  padding-bottom: 10px;
+}
+
+#menu:hover,
+#rewards:hover {
+  border-bottom: 8px solid #00754a;
+  color: #00754a;
+}
+
+/* BanneRock */
+.bannerrock {
+  display: flex;
+  background-color: #e41339;
+  color: white;
+  /* text-align: center; */
+}
+
+.bannerrock h1 {
+  font-size: 28px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.bannerrock p {
+  font-size: 18.5px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.bannerrock div {
+  align-content: center;
+  padding: 0 60px;
+  vertical-align: middle;
+}
+
+/* Banner1 */
+.banner {
+  display: flex;
+  background-color: #1e3932;
+  color: white;
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+
+.banner p {
+  font-size: 18.5px;
+  line-height: 30px;
+}
+
+.banner div {
+  align-content: center;
+  padding: 0 60px;
+  vertical-align: middle;
+}
+
+/* Banner2 */
+.banner2 {
+  display: flex;
+  background-color: #cae390;
+  color: white;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.banner2 h1 {
+  color: #1e3932;
+  font-size: 28px;
+  margin-bottom: 25px;
+  vertical-align: middle;
+}
+
+.banner2 p,
+#news span {
+  color: #1e3932;
+  font-size: 18.5px;
+  line-height: 30px;
+  vertical-align: middle;
+}
+
+.banner2 div {
+  align-content: center;
+  padding: 0 60px;
+  vertical-align: middle;
+}
+
+/* Banner3 */
+.banner3 {
+  display: flex;
+  background-color: #f5e1a4;
+  color: white;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.banner3 h1 {
+  color: #204285;
+  font-size: 28px;
+  margin-bottom: 25px;
+  vertical-align: middle;
+}
+
+.banner3 p {
+  color: #204285;
+  font-size: 18.5px;
+  line-height: 30px;
+  vertical-align: middle;
+}
+
+.banner3 div {
+  align-content: center;
+  padding: 0 60px;
+  vertical-align: middle;
+}
+
+/* Banner5 */
+.banner5 {
+  display: flex;
+  background-color: #474a6f;
+  color: white;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.banner5 h1 {
+  color: #ffffff;
+  font-size: 28px;
+  margin-bottom: 25px;
+  vertical-align: middle;
+}
+
+.banner5 p,
+#promos span {
+  color: #ffffff;
+  font-size: 18.5px;
+  line-height: 30px;
+  vertical-align: middle;
+}
+
+.banner5 div {
+  align-content: center;
+  padding: 0 60px;
+  vertical-align: middle;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+/* /////////////////////////////////////////////////////////////////// */
+
+/* Las 2 columnas */
+.twocolumns {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 30px;
+  flex-grow: 1;
+}
+
+/* Adding this class to force width to 100% */
+.full-width {
+  width: 100%;
+}
+
+.column {
+  justify-content: center;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  height: 685px;
+}
+
+#news {
+  background-color: #cae390;
+}
+
+#promos {
+  background-color: #1e3932;
+}
+
+#news span,
+#promos span {
+  display: flex;
+  flex-grow: 1;
+  align-self: center;
+  align-items: center;
+  text-align: center;
+}
+
+#news .button,
+#promos .button {
+  flex-grow: 0;
+  margin-bottom: 40px;
+}
+
+#news .button {
+  border-color: black;
+  background-color: #cae390;
+}
+
+#promos .button {
+  border-color: white;
+  color: #ffffff;
+  background-color: #1e3932;
+}
+
+.button {
+  border: 2px solid;
+  border-radius: 20px;
+  width: 120px;
+  height: 40px;
+  font-weight: 600;
+  align-self: center;
+}
+
+#vm {
+  color: white !important ;
+}
+
+#column div {
+  align-content: center;
+}
+
+/* ////////////////////////////////////////////////////////// */
+
+#info {
+  display: flex;
+  flex-direction: row;
+}
+
+#sn {
+  padding-top: 90px;
+  padding-left: 50px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#snt {
+  padding-top: 5px;
+  padding-left: 50px;
+  font-size: 17px;
+  color: gray;
+}
+
+#ac {
+  padding-top: 90px;
+  padding-left: 50px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#act {
+  padding-top: 5px;
+  padding-left: 50px;
+  font-size: 17px;
+  color: gray;
+}
+
+/* ////////////////////////////////////////////////////////// */
+footer {
+  box-shadow: black;
+}
+
+hr {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#socialmedia {
+  margin-top: 40px;
+  display: flex;
+  height: 34px;
+  justify-content: center;
+  gap: 30px;
+}
+
+.footerlinks {
+  display: flex;
+  justify-content: center;
+  font-size: 15;
+  color: gray;
+  gap: 7px;
+}
+
+.footertexto {
+  display: flex;
+  justify-content: center;
+  font-size: 10;
+  color: gray;
+}
+
+.footermx {
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  color: gray;
+}
+
+/* /////////////////////////////////////////////////////////////// */
+
+ul {
+  list-style: none;
+}
+
+.footer_container {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer_container a {
+  text-decoration: none;
+  padding: none;
+}
+
+.social-media {
+  display: flex;
+  gap: 15px;
+}
+
+.column {
+  line-height: 4opx;
+  margin: 0 20px;
+  justify-content: flex-start;
+}
+
+.social-media a {
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  width: 100%;
+  justify-content: center;
+  padding-top: 20px;
+  border-top: gray;
+}
+
+#facebookIcon {
+  background-image: url(assets/fblogo.png);
+  background-size: cover;
+}
+
+#footersecond {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* /////////////////////////////////////////////////////// */
+
+/* Clases del ejemplo de position */
+/* .box {
+  top: 50px;
+  left: 20px;
+  bottom: 0;
+  right: 0;
+  width: 150px;
+  height: 150px;
+  margin: 20px auto;
+  text-align: center;
+  font-weight: bold;
+  background-color: chocolate;
+  color: beige;
+  align-content: center;
+}
+
+#relative {
+  position: relative;
+  top: -170px;
+  bottom: 0;
+  left: 150px;
+  right: 0;
+  background-color: #00754a;
+}
+
+#absolut {
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  background-color: blue;
+}
+
+#fixed {
+  position: fixed;
+  top: 50px;
+  left: 20px;
+  background-color: brown;
+}
+
+#sticky {
+  position: sticky;
+  bottom: 50px;
+  right: 20;
+  background-color: aquamarine;
+} */

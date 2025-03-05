@@ -1,0 +1,19 @@
+p {
+  border: inherit; /* El párrafo hereda el borde de su padre */
+}
+
+p {
+  color: initial; /* Restablece el color al valor predeterminado (negro) */
+}
+
+body {
+  color: blue;
+}
+
+div {
+  color: blue; /* Redundante, ya que el div hereda el color de body */
+}
+
+p {
+  color: blue; /* También redundante */
+}
