@@ -109,6 +109,23 @@ section {
   color: #00754a;
 }
 
+.sticky-note {
+  display: flex;
+  position: sticky;
+  top: 20px;
+  background-color: #fcf0d2;
+  padding: 10px;
+  z-index: 500; /* Se asegura de estar por encima del contenido principal */
+  color: #1e3932;
+  align-items: end;
+  align-content: end;
+}
+
+.sticky-note p {
+  align-items: center;
+  margin-left: 10%;
+}
+
 /* BanneRock */
 .bannerrock {
   display: flex;
